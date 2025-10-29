@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "minersglasses:glasses",
+    "minersglasses:coal_glasses",
+    "minersglasses:lapis_glasses",
+    "minersglasses:copper_glasses",
+    "minersglasses:iron_glasses",
+    "minersglasses:redstone_glasses",
+    "minersglasses:gold_glasses",
+    "minersglasses:emerald_glasses",
+    "minersglasses:diamond_glasses",
+    "minersglasses:netherite_glasses"
+  ]
+}

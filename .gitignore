@@ -1,0 +1,47 @@
+# Gradle
+.gradle/
+build/
+out/
+classes/
+
+# Maven (旧的构建系统)
+target/
+.mvn/
+mvnw
+mvnw.cmd
+pom.xml.backup
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.eclipse/
+.settings/
+.classpath
+.project
+
+# 编译输出
+*.class
+*.jar
+!gradle-wrapper.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Minecraft 运行环境
+run/
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Forge MDK 文件
+forge*changelog.txt
+
+.claude/
+CLAUDE.md

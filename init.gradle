@@ -1,0 +1,27 @@
+// Gradle 初始化脚本 - 配置国内镜像加速
+// 此文件配置所有 Gradle 构建使用阿里云镜像，加快下载速度
+
+allprojects {
+    buildscript {
+        repositories {
+            // 阿里云公共仓库
+            maven { url 'https://maven.aliyun.com/repository/public/' }
+            maven { url 'https://maven.aliyun.com/repository/google/' }
+            maven { url 'https://maven.aliyun.com/repository/gradle-plugin/' }
+
+            // 原始仓库（备用）
+            mavenCentral()
+            google()
+        }
+    }
+
+    repositories {
+        // 阿里云公共仓库
+        maven { url 'https://maven.aliyun.com/repository/public/' }
+        maven { url 'https://maven.aliyun.com/repository/google/' }
+
+        // 原始仓库（备用）
+        mavenCentral()
+        google()
+    }
+}

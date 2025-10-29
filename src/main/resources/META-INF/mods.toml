@@ -1,0 +1,41 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="minersglasses_curios_addon"
+version="1.0.4"
+displayName="Miner's Glasses Curios Addon"
+authors="QiuMo"
+description='''
+Adds Curios support for Miner's Glasses, allowing glasses to work when equipped in curio slots.
+为矿工眼镜添加 Curios 饰品栏支持，让眼镜在饰品栏中也能正常使用透视功能。
+'''
+
+[[dependencies.minersglasses_curios_addon]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.minersglasses_curios_addon]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.21)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.minersglasses_curios_addon]]
+    modId="minersglasses"
+    mandatory=true
+    versionRange="[0.1,1.0)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.minersglasses_curios_addon]]
+    modId="curios"
+    mandatory=true
+    versionRange="[5.7.0,6.0)"
+    ordering="AFTER"
+    side="BOTH"
